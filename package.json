@@ -1,16 +1,24 @@
 {
   "name": "repc",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "REPC é uma API simples e poderosa que consolida e analisa dados da jornada pós-compra dos clientes em múltiplas plataformas de ecommerce, como Yampi, Shopify e Mercado Livre. Com foco em expedição integrada e satisfação do cliente, permite que lojistas e marketplaces monitorem métricas essenciais como tempo de entrega, taxas de devolução, feedbacks e interações de suporte tudo em um só lugar. Através de alertas inteligentes e indicadores customizáveis, a API ajuda a identificar pontos críticos da experiência do cliente, fornecendo insights para melhorar a operação, reduzir custos e aumentar a fidelização.",
+  "homepage": "https://github.com/raineridev/REPC#readme",
+  "bugs": {
+    "url": "https://github.com/raineridev/REPC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raineridev/REPC.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "express": "^5.1.0"
   }
 }
